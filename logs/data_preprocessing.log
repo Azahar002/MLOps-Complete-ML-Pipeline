@@ -1,0 +1,53 @@
+2025-04-05 10:17:31,532 - data_preprocessing - INFO - Loading raw data...
+2025-04-05 10:17:31,554 - data_preprocessing - INFO - Preprocessing started.
+2025-04-05 10:17:31,556 - data_preprocessing - INFO - Target column encoded.
+2025-04-05 10:17:31,562 - data_preprocessing - INFO - Duplicates removed.
+2025-04-05 10:17:31,570 - data_preprocessing - DEBUG - Transformed 0 rows...
+2025-04-05 10:17:32,150 - data_preprocessing - DEBUG - Transformed 500 rows...
+2025-04-05 10:17:32,701 - data_preprocessing - DEBUG - Transformed 1000 rows...
+2025-04-05 10:17:33,273 - data_preprocessing - DEBUG - Transformed 1500 rows...
+2025-04-05 10:17:33,879 - data_preprocessing - DEBUG - Transformed 2000 rows...
+2025-04-05 10:17:34,935 - data_preprocessing - DEBUG - Transformed 3000 rows...
+2025-04-05 10:17:35,523 - data_preprocessing - DEBUG - Transformed 3500 rows...
+2025-04-05 10:17:36,025 - data_preprocessing - DEBUG - Transformed 4000 rows...
+2025-04-05 10:17:36,464 - data_preprocessing - INFO - Text column transformed.
+2025-04-05 10:17:36,465 - data_preprocessing - INFO - Preprocessing started.
+2025-04-05 10:17:36,467 - data_preprocessing - INFO - Target column encoded.
+2025-04-05 10:17:36,469 - data_preprocessing - INFO - Duplicates removed.
+2025-04-05 10:17:36,470 - data_preprocessing - DEBUG - Transformed 0 rows...
+2025-04-05 10:17:37,066 - data_preprocessing - DEBUG - Transformed 500 rows...
+2025-04-05 10:17:37,616 - data_preprocessing - DEBUG - Transformed 1000 rows...
+2025-04-05 10:17:37,734 - data_preprocessing - INFO - Text column transformed.
+2025-04-05 10:17:37,751 - data_preprocessing - INFO - Processed data saved to ./data/interim
+2025-04-05 11:02:31,730 - data_preprocessing - ERROR - Failed to complete the fearture engineering process: name 'Exceptin' is not defined
+2025-04-05 11:03:21,606 - data_preprocessing - ERROR - Unexpected error occured while loading the data: [Errno 2] No such file or directory: 'data/interim/train.csv'
+2025-04-05 11:03:21,606 - data_preprocessing - ERROR - Failed to complete the fearture engineering process: [Errno 2] No such file or directory: 'data/interim/train.csv'
+2025-04-05 11:05:09,858 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2025-04-05 11:05:09,861 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2025-04-05 11:05:09,861 - data_preprocessing - ERROR - Error applying Bag of words transformation: name 'TfidfVectorizer' is not defined
+2025-04-05 11:05:09,861 - data_preprocessing - ERROR - Failed to complete the fearture engineering process: name 'TfidfVectorizer' is not defined
+2025-04-05 11:08:30,450 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2025-04-05 11:08:30,452 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2025-04-05 11:08:30,452 - data_preprocessing - ERROR - Error applying tfidf transformation: name 'max_features' is not defined
+2025-04-05 11:08:30,452 - data_preprocessing - ERROR - Failed to complete the fearture engineering process: name 'max_features' is not defined
+2025-04-05 11:09:09,408 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2025-04-05 11:09:09,410 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2025-04-05 11:09:09,461 - data_preprocessing - ERROR - Error applying tfidf transformation: name 'X_test_bow' is not defined
+2025-04-05 11:09:09,461 - data_preprocessing - ERROR - Failed to complete the fearture engineering process: name 'X_test_bow' is not defined
+2025-04-05 11:12:00,823 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2025-04-05 11:12:00,825 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2025-04-05 11:12:00,897 - data_preprocessing - DEBUG - tfidf applied and  transformation applied
+2025-04-05 11:12:00,897 - data_preprocessing - ERROR - Failed to complete the fearture engineering process: name 'save_data' is not defined
+2025-04-05 11:12:31,004 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2025-04-05 11:12:31,007 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2025-04-05 11:12:31,066 - data_preprocessing - DEBUG - tfidf applied and  transformation applied
+2025-04-05 11:12:31,066 - data_preprocessing - ERROR - Failed to complete the fearture engineering process: save_data() got an unexpected keyword argument 'train_df'
+2025-04-05 11:13:49,809 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2025-04-05 11:13:49,811 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2025-04-05 11:13:49,868 - data_preprocessing - DEBUG - tfidf applied and  transformation applied
+2025-04-05 11:13:49,868 - data_preprocessing - ERROR - Failed to complete the fearture engineering process: save_data() got an unexpected keyword argument 'train_df'
+2025-04-05 11:15:27,082 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2025-04-05 11:15:27,085 - data_preprocessing - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2025-04-05 11:15:27,143 - data_preprocessing - DEBUG - tfidf applied and  transformation applied
+2025-04-05 11:15:27,221 - data_preprocessing - DEBUG - Data saved to ./data/processed/train_tfidf.csv
+2025-04-05 11:15:27,241 - data_preprocessing - DEBUG - Data saved to ./data/processed/train_tfidf.csv
