@@ -4,3 +4,14 @@
 2025-04-06 15:59:56,405 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
 2025-04-06 15:59:56,421 - model_evaluation - DEBUG - Model evaluation metrics calculated
 2025-04-06 15:59:57,515 - model_evaluation - ERROR - Failed to complete the model evaluation process: Empty git repo
+2025-04-06 16:02:41,658 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2025-04-06 16:02:41,673 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2025-04-06 16:02:41,691 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2025-04-06 16:02:43,854 - model_evaluation - ERROR - Failed to complete the model evaluation process: Git user name and email must be configured
+2025-04-06 16:08:07,468 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2025-04-06 16:08:07,480 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2025-04-06 16:08:07,496 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2025-04-06 16:09:32,518 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2025-04-06 16:09:32,539 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2025-04-06 16:09:32,560 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2025-04-06 16:09:32,561 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json
