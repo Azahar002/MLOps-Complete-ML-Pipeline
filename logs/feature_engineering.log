@@ -18,3 +18,23 @@
 2025-04-08 05:41:32,380 - feature_engineering - DEBUG - tfidf applied and  transformation applied
 2025-04-08 05:41:32,463 - feature_engineering - DEBUG - Data saved to ./data/processed/train_tfidf.csv
 2025-04-08 05:41:32,485 - feature_engineering - DEBUG - Data saved to ./data/processed/test_tfidf.csv
+2025-04-08 06:06:21,395 - feature_engineering - DEBUG - Parameters retrieved from params.yaml
+2025-04-08 06:06:21,407 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2025-04-08 06:06:21,409 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2025-04-08 06:06:21,409 - feature_engineering - ERROR - Failed to complete the fearture engineering process: name 'max_feature' is not defined
+2025-04-08 06:06:58,365 - feature_engineering - DEBUG - Parameters retrieved from params.yaml
+2025-04-08 06:06:58,377 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2025-04-08 06:06:58,380 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2025-04-08 06:06:58,380 - feature_engineering - ERROR - Failed to complete the fearture engineering process: name 'max_feature' is not defined
+2025-04-08 06:07:21,538 - feature_engineering - DEBUG - Parameters retrieved from params.yaml
+2025-04-08 06:07:21,549 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2025-04-08 06:07:21,551 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2025-04-08 06:07:21,611 - feature_engineering - DEBUG - tfidf applied and  transformation applied
+2025-04-08 06:07:21,687 - feature_engineering - DEBUG - Data saved to ./data/processed/train_tfidf.csv
+2025-04-08 06:07:21,707 - feature_engineering - DEBUG - Data saved to ./data/processed/test_tfidf.csv
+2025-04-08 06:09:12,779 - feature_engineering - DEBUG - Parameters retrieved from params.yaml
+2025-04-08 06:09:12,788 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/train_processed.csv
+2025-04-08 06:09:12,790 - feature_engineering - DEBUG - Data loaded and NaNs filled from data/interim/test_processed.csv
+2025-04-08 06:09:12,851 - feature_engineering - DEBUG - tfidf applied and  transformation applied
+2025-04-08 06:09:12,933 - feature_engineering - DEBUG - Data saved to ./data/processed/train_tfidf.csv
+2025-04-08 06:09:12,952 - feature_engineering - DEBUG - Data saved to ./data/processed/test_tfidf.csv
